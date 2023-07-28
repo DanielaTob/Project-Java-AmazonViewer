@@ -3,6 +3,10 @@ package com.project.amazonviewer.model;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * Hereda de {@link Film}
+ * Implementea de {@link IVisualizable}
+ * */
 public class Movie extends Film implements IVisualizable {
 
     private int id;
